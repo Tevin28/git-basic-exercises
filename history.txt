@@ -1,0 +1,54 @@
+    1  [200~$ git config --global user.name <Your name here>
+    2  git config --global user.email tevinmonyai@gmail.com
+    3  clear
+    4  mkdir git-basic-exercises
+    5  cd git-basic-exercises/
+    6  git init
+    7  git config --global user.name "Tevin Monyai"
+    8  git config --global user.email "tevinmonyai@gmail.com"
+    9  ls -a
+   10  git status
+   11  touch README.md
+   12  ls -a
+   13  git status
+   14  git add README.md
+   15  git status
+   16  git commit -m "initial commit"
+   17  git log
+   18  q
+   19  nano README.md
+   20  cat README.md
+   21  gti status
+   22  git status
+   23  git add README.md
+   24  git commit -m "second commit"
+   25  nano README.md
+   26  cat README.md
+   27  git add README.md
+   28  git commit -m "third commit"
+   29  git log
+   30  gitcheckout 104aa4a51401a40104bb7762c5efcbf55b0fc94d
+   31  git checkout 104aa4a51401a40104bb7762c5efcbf55b0fc94d
+   32  git switch -
+   33  git checkout [200~bed5cce8714148b299ed6103801412e3b8494a60
+   34  git checkout bed5cce8714148b299ed6103801412e3b8494a60
+   35  cat README.md
+   36  git checkout main
+   37  git switch -
+   38  cat README.md
+   39  git branch
+   40  git checkout -b mikshake-flavours
+   41  git branch
+   42  git checkout master
+   43  git branch
+   44  git checkout milkshake-flavours
+   45  git checkout mikshake-flavours
+   46  nano milkshakes.md
+   47  git add milkshakes.md
+   48  git commit -m "initial flavours"
+   49  git log
+   50  git checkout master
+   51  git checkout -b history
+   52  git log
+   53  git branch
+   54  history > history.txt
